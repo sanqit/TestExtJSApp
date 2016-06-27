@@ -1,4 +1,4 @@
-﻿namespace TestExtJSApp.Services
+﻿namespace TestExtJSApp.BL
 {
 	public interface IAddress
 	{

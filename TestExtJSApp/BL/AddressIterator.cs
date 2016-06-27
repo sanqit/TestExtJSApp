@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 
-namespace TestExtJSApp.Services
+namespace TestExtJSApp.BL
 {
 	// Можно организовать в этом классе хранение или создание экземпляров реализации IAddress
 	public class AddressIterator : IAddressIterator

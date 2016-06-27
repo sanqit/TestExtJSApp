@@ -69,14 +69,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\Address.cs" />
-    <Compile Include="Services\AddressEnumerator.cs" />
-    <Compile Include="Services\AddressIterator.cs" />
+    <Compile Include="BL\Address.cs" />
+    <Compile Include="BL\AddressEnumerator.cs" />
+    <Compile Include="BL\AddressIterator.cs" />
     <Compile Include="Services\DataService.svc.cs">
       <DependentUpon>DataService.svc</DependentUpon>
     </Compile>
-    <Compile Include="Services\IAddress.cs" />
-    <Compile Include="Services\IAddressIterator.cs" />
+    <Compile Include="BL\IAddress.cs" />
+    <Compile Include="BL\IAddressIterator.cs" />
     <Compile Include="StartPage.aspx.cs">
       <DependentUpon>StartPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

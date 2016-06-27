@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using TestExtJSApp.Services;
 
-namespace TestExtJSApp.Services
+namespace TestExtJSApp.BL
 {
 	public interface IAddressIterator : IEnumerable<IAddress>
 	{

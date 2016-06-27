@@ -1,4 +1,4 @@
-﻿namespace TestExtJSApp.Services
+﻿namespace TestExtJSApp.BL
 {
 	// Можно реализовать другой клас, не завязаный на передаваемый в конструктор id
 	public class Address : IAddress
